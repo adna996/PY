@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PyQuizApp</string>
+
+    <string name="english">Engleski</string>
+    <string name="bosnian">Bosanski</string>
+    <string name="chooseLang">Izaberite jezik</string>
+    <string name="easy"><font fgcolor='#b6fa5c'>Lako</font></string>
+    <string name="medium"><font fgcolor='#f7d839'>Srednje teško</font></string>
+    <string name="hard"><font fgcolor='#f73434'>Teško</font></string>
+    <string name="play">Igraj</string>
+    <string name="changel">Promijeni jezik</string>
+    <string name="desc">Testirajte svoje znanje iz Python jezika i kliknite Igraj da kviz počne</string>
+    <string name="welcome">Dobrodošli na Python kviz</string>
+    <string name="about">O aplikaciji</string>
+    <string name="aboutDesc">byePy je kviz koji će vam pomoći da testirate vaše znanje Python programskog jezika. Takodje, može vam pomoći i da naučite osnove programiranja.</string>
+    <string name="start">byePy kviz</string>
+    <string name="learnpy">Naučite Python</string>
+    <string name="learnpython"><a>Learn Py</a></string>
+    <string name="learnhere">Ovdje je postavljeno nekoliko linkova na kojima možete pronaći sve što vas zanima u vezi Python jezika. Posjetite ih i naučite python kako bi bili spremni za ovaj kviz.</string>
+
+    <string name="rules_text">  Izaberite odgovor/e. Sa svakim tačnim odgovorom idete na sljedeće pitanje.
+        \n\n</string>
+    <string name="end">Vaš rezultat</string>
+    <string name="thanks">Hvala vam što ste igrali! Podijelite vaš rezultat sa prijateljima ili igrajte ponovo.</string>
+    <string name="playAgain">Igraj ponovo?</string>
+    <string name="share">Podijeli</string>
+    <string name="questTitle">Pitanje (%1$d/%2$d)</string>
+    <string name="submit_button">Odgovori</string>
+    <string name="choice">Izaberite težinu</string>
+    <string name="num">Upišite broj pitanja </string>
+    <string name="hard1">Hard pitanje 1</string>
+    <string name="joker">Iskoristi joker</string>
+    <string name="dontknow">Ne znate odgovor? \n Kliknite na dugmić ispod</string>
+    <string name="message">Čestitamo! Odgovorili ste tačno na sva pitanja.</string>
+    <string name="message2">Odgovorili ste tačno na: </string>
+    <string name="message3">Niste odgovorili ni na jedno pitanje tačno</string>
+    <string name="ques">pitanja</string>
+    <string name="jokerUsed">Iskoristili ste joker</string>
+    <string name="jokerNotUsed">Niste iskoristili joker</string>
+    <string name="question_answer">Napišite odgovor ovdje</string>
+    <string name="theend">Kraj</string>
+    <string name="game">Igra</string>
+    <string name="options">Opcije</string>
+    <string name="code1">list = [ abcd, 786 , 2.23, john, 70.2 ]</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PyQuizApp</string>
+
+    <string name="english">English</string>
+    <string name="bosnian">Bosnian</string>
+    <string name="chooseLang">Choose language</string>
+    <string name="easy"><font fgcolor='#b6fa5c'>Easy</font></string>
+    <string name="medium"><font fgcolor='#f7d839'>Medium</font></string>
+    <string name="hard"><font fgcolor='#f73434'>Hard</font></string>
+    <string name="play">Play</string>
+    <string name="changel">Change language</string>
+    <string name="desc">Test your knowledge in Python language and click play to start a quiz</string>
+    <string name="welcome">Welcome to Python quiz</string>
+    <string name="about">About app</string>
+    <string name="aboutDesc">
+    byePy will help remind you of important concepts you have learned and will learn about Python programing language.
+        \n\nIs an easy to use application that allows you to test your knowledge in Python language. \n\nWith list of different quiz questions,
+        which cover a variety of topics, this quiz app will help you to get even more inspiration for learning.</string>
+    <string name="start">byePy Quiz</string>
+    <string name="learnpy">Learn Python</string>
+    <string name="learnpython"><a>Learn py</a></string>
+    <string name="learnhere">Here we will provide several links for you, where you can learn more about Python and be prepared for this quiz.</string>
+    <string name="rules_text">  Select the answer from the options given. Each time you get an answer correct, you advance to the next question.
+        \n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen,
+        and this will also end your game. \n\nChoose level and measure your perfomances.</string>
+
+    <string name="end">Your result</string>
+    <string name="thanks">Thank you for playing! Share your result with friends or play again.</string>
+    <string name="playAgain">Play again?</string>
+    <string name="share">Share</string>
+    <string name="questTitle">Question (%1$d/%2$d)</string>
+    <string name="submit_button">Submit</string>
+    <string name="choice">Choose difficulty</string>
+    <string name="num">Insert number of questions </string>
+    <string name="hard1">Hard question 1</string>
+    <string name="joker">Use joker</string>
+    <string name="dontknow">Don\'t know the answer? \n Click on a button below</string>
+    <string name="message">Congrats! You answered all of the questions correctly.</string>
+    <string name="message2">You answered correctly: </string>
+    <string name="message3">You didn\'t answer any of the questions correctly :(</string>
+    <string name="ques">questions</string>
+    <string name="jokerUsed">You used your joker</string>
+    <string name="jokerNotUsed">You didn\'t use joker</string>
+    <string name="question_answer">Answer</string>
+    <string name="theend">The end</string>
+    <string name="game">Game on</string>
+    <string name="options">Options</string>
+    <string name="code1"><font fgcolor="#f73434">list = [ abcd, 786 , 2.23, john, 70.2 ] </font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

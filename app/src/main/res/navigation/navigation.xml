@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/startFragment2">
+
+    <fragment
+        android:id="@+id/startFragment2"
+        android:name="com.example.pyquizapp.StartFragment"
+        android:label="@string/start" >
+        <action
+            android:id="@+id/action_startFragment2_to_choiceFragment"
+            app:destination="@id/choiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.pyquizapp.AboutFragment"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/endFragment"
+        android:name="com.example.pyquizapp.EndFragment"
+        android:label="@string/theend"
+        tools:layout="@layout/fragment_end">
+        <action
+            android:id="@+id/action_endFragment_to_choiceFragment"
+            app:destination="@id/choiceFragment" />
+        <argument
+            android:name="correctAnswers"
+            app:argType="integer" />
+        <argument
+            android:name="numOfQ"
+            app:argType="integer" />
+        <argument
+            android:name="jokerUsed"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.pyquizapp.GameFragment"
+        android:label="@string/game">
+        <argument
+            android:name="numOfQuestions"
+            app:argType="integer" />
+        <argument
+            android:name="levelD"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_gameFragment_to_endFragment"
+            app:destination="@id/endFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:name="com.example.pyquizapp.ChoiceFragment"
+        android:label="@string/options">
+        <action
+            android:id="@+id/action_choiceFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/learnFragment"
+        android:name="com.example.pyquizapp.LearnFragment"
+        android:label="Learn PY"
+        tools:layout="@layout/fragment_learn" />
+</navigation>

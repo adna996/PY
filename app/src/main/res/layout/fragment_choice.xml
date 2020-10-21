@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        tools:context=".ChoiceFragment">
+
+
+        <TextView
+            android:id="@+id/choiceText"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="@string/choice"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/levelRadioGroup"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="120dp">
+
+            <RadioButton
+                android:id="@+id/easyButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_corners"
+                android:button="@null"
+                android:gravity="center"
+                android:shadowColor="@color/colorPrimary"
+                android:text="@string/easy"
+                android:textColor="@color/colorPrimary"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorLink="@color/background"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/mediumButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_corners"
+                android:button="@null"
+                android:gravity="center"
+                android:shadowColor="@color/accent2"
+                android:text="@string/medium"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/hardButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_corners"
+                android:button="@null"
+                android:gravity="center"
+                android:shadowColor="@color/colorPrimary"
+                android:text="@string/hard"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/rounded_corners"
+            android:text="@android:string/ok"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/numOfQ"
+            android:layout_width="68dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:autofillHints=""
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:hint=""
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="@color/background" />
+
+        <TextView
+            android:id="@+id/numOfQText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:text="@string/num"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+    </FrameLayout>
+</layout>
